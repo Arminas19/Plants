@@ -11,3 +11,9 @@ body {
 #order-3 {
     background-color: yellow;
 }
+
+#box {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
