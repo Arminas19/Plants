@@ -27,9 +27,13 @@ td {
     padding: 20px;
 }
 
+
 tr:nth-child(even) {
     background-color: #dddddd;
-  }
+}
+tr:hover {
+    background-color: limegreen;
+}
 
 p:hover {
     color: tomato;
