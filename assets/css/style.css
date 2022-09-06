@@ -52,6 +52,11 @@ a:hover {
     background-color: yellow;
 }
 
+#alert {
+    position: sticky;
+    top: 0;
+}
+
 #box {
     width: 100px;
     height: 100px;
