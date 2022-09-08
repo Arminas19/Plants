@@ -1,64 +1,16 @@
-body {
-    background-color: darkturquoise;
-}
 
-img {
-height: auto;
-width: 300px;
-}
+/* Classes */
 
-table {
-    border-bottom: 2.0px solid #000000;
-    border-top: 3px solid #000000;
-    border-collapse: collapse;
-    width: 100%;
-    color: white;
-}
-
-th {
-    background-color: tomato;
-    color: gold;
-    text-align: center;
-    padding: 20px;
-}
-
-td {
-    text-align: center;
-    padding: 20px;
+.icons {
+    box-shadow: 2px 2px grey;
+    border-radius: 50%;
 }
 
 
-tr:nth-child(even) {
-    background-color: #dddddd;
-}
-tr:hover {
-    background-color: limegreen;
-}
 
-p:hover {
-    color: tomato;
-}
-a:hover {
-    color: greenyellow;
-}
+/* CSS Effects */
 
-#order-1 {
-    background-color: red;
-}
-#order-2 {
-    background-color: green;
-}
-#order-3 {
-    background-color: yellow;
-}
-
-#alert {
-    position: sticky;
-    top: 0;
-}
-
-#box {
-    width: 100px;
-    height: 100px;
-    background-color: white;
+.navigation-link:hover {
+    color:limegreen;
+    font-weight: 500;
 }
