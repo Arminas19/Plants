@@ -1,15 +1,21 @@
 
 /* Elements */
 body {
-    background-color: silver;
+    background-color: rgb(227, 222, 232);
 }
 
 /* Id's*/
-
+#hr {
+    color: grey;
+}
 
 
 
 /* Classes */
+.footer-link {
+    color: green;
+}
+
 .mute {
     opacity: 70%;
 }
@@ -37,6 +43,11 @@ body {
 }
 
 .navigation-link:hover {
+    color:limegreen;
+    font-weight: 500;
+}
+
+.footer-link:hover {
     color:limegreen;
     font-weight: 500;
 }
