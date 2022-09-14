@@ -1,0 +1,62 @@
+.container {
+    max-width: 1140px;
+    margin: auto;
+}
+
+.big-button {
+    padding: 27px 83px 27px 83px;
+}
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    display: inline-block;
+    padding: 8px 16px 8px 16px;
+    text-transform: uppercase;
+}
+
+nav ul li.active {
+    background-color: #643a79;
+    border-radius: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    float: right;
+}
+
+header {
+    padding-top: 55px;
+}
+
+#section-1 {
+    background-color: #87509c;
+    min-height: 595px;
+}
+
+#main-heading-and-cta {
+    margin-top: 145px;
+    text-align: center;
+}
+
+#main-heading-and-cta h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 60px;
+}
+
+#main-heading-and-cta a {
+    background:#eb7d4b; ;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
