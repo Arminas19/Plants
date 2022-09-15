@@ -12,6 +12,7 @@ body {
     margin: 0;
     padding: 0;
 }
+
 nav ul li {
     display: inline-block;
     padding: 8px 16px 8px 16px;
@@ -23,7 +24,7 @@ nav ul li.active {
     border-radius: 5px;
 }
 
-nav ul li a{
+nav ul li a {
     text-decoration: none;
     color: white;
 }
@@ -54,9 +55,69 @@ header {
 }
 
 #main-heading-and-cta a {
-    background:#eb7d4b; ;
+    background: #eb7d4b;
+    ;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 5px;
 }
+
+/* Section 2  */
+
+#section-2 h2 {
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 4px;
+    margin-top: 0%;
+    margin-bottom: 10px;
+}
+
+#section-2 p {
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+#section-2 {
+    background-color: #17c2a4;
+    min-height: 750px;
+    color: white;
+}
+
+.title-box {
+    max-width: 609px;
+    text-align: center;
+    padding-top: 120px; 
+    margin: auto;
+}
+
+.title-box .line {
+    background-color: rgba(0, 0, 0, 0.162);
+    height: 4px;
+    width: 87px;
+    margin: auto;
+}
+
+.blurb-row{
+    margin-top: 80px;
+}
+
+.blurb {
+    width: 23.33%;
+    text-align: center;
+    display: inline-table;
+}
+
+.blurb h3 {
+    margin-top: 60px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blurb p {
+    font-size: 16px;
+    font-weight: lighter;
+    max-width: 200px;
+    margin: auto;
+}
+
