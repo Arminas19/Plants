@@ -56,7 +56,6 @@ header {
 
 #main-heading-and-cta a {
     background: #eb7d4b;
-    ;
     color: white;
     text-decoration: none;
     text-transform: uppercase;
@@ -121,3 +120,123 @@ header {
     margin: auto;
 }
 
+/* Section 3  */
+
+#section-3 {
+    background-color: #3c5499;
+    min-height: 820px;
+    color: white;
+}
+
+#section-3 h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0;
+    letter-spacing: 5px;
+}
+
+#section-3 p {
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+
+#section-3 .title-box {
+    max-width: none;
+    margin-bottom: 70px;
+    padding-top: 60px;
+}
+
+#contact-form {
+    max-width: 870px;
+    margin: auto;
+}
+
+.form-row {
+    text-align: center;
+    display: flex;
+}
+
+.text-form {
+    background-color: #273a71;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    width: 50%;
+    height: 56px;
+    margin:16px;
+}
+
+.form-row textarea {
+    background-color: #273a71;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    margin: 16px;
+
+}
+
+.form-row textarea::placeholder {
+    color: white;
+    padding-left: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    padding-top: 24px;
+}
+
+.text-form::placeholder {
+    color: white;
+    padding-left: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.button{
+    background-color: #30bae7;
+    color: white;
+    font-size: 16px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    border: none;
+    padding: 27px 83px 27px 83px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #344b8e;
+}
+
+.footer-links {
+    max-width: 945px;
+    margin: auto;
+}
+
+.footer-links ul {
+    margin: 0;
+    padding-top:25px;
+    padding-bottom:25px;
+}
+
+.footer-links ul li {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.footer-links ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.footer-links ul li a.active {
+    color: #30bae7;
+}
