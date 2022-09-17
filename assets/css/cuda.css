@@ -224,6 +224,7 @@ footer {
     margin: 0;
     padding-top:25px;
     padding-bottom:25px;
+    padding-left: 0;
 }
 
 .footer-links ul li {
@@ -239,4 +240,64 @@ footer {
 
 .footer-links ul li a.active {
     color: #30bae7;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1140px) {
+    .container {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width:940px){
+    .footer-links {
+        max-width: 673px;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:794px) {
+    .blurb h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width:731px) {
+    .blurb {
+        width: 46.66%;
+        margin-bottom: 50px;
+    }
+
+    .blurb h3 {
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+}
+
+@media screen and (max-width:620px) {
+    #main-heading-and-cta h1 {
+        font-size: 35px;
+    }             
+}
+
+@media screen and (max-width:405px) {
+    #main-heading-and-cta h1 {
+        font-size: 25px;
+    }
+
+    .blurb {
+        width: 100%;
+    }   
+}
+
+@media screen and (max-width:320px) {
+    .big-button {
+        font-size: 15px;
+    }
+
+    .button {
+    padding: 22px 70px 22px 70px;
+    }
 }
