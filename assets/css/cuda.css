@@ -279,7 +279,40 @@ footer {
 @media screen and (max-width:620px) {
     #main-heading-and-cta h1 {
         font-size: 35px;
-    }             
+    } 
+    
+    /* Burger Icon */
+    #menu-icon {
+        display: inline-block !important;
+        color: white;
+        font-size: 25px;
+        position: absolute;
+        margin-right: 15px;
+        top: 60px;
+        right: 15px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #main-menu {
+        width: 100%;
+    }
+
+    #main-menu ul li {
+        display: block;
+    }
+
+    #main-heading-and-cta h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:455px) {
+    #main-heading-and-cta h1 {
+        font-size: 26px;
+    } 
 }
 
 @media screen and (max-width:405px) {
@@ -300,4 +333,8 @@ footer {
     .button {
     padding: 22px 70px 22px 70px;
     }
+
+    #main-heading-and-cta h1 {
+        font-size: 24px;
+    } 
 }

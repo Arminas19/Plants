@@ -8,9 +8,11 @@
     <title>Cuda - Awesome Websites and Mobile Apps </title>
     <link rel="stylesheet" href="assets/css/cuda.css">
     <link rel="shortcut icon" type="image/png" href="assets/logo.png">
+    <script src="https://kit.fontawesome.com/35936358ad.js" crossorigin="anonymous"></script>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap');
     </style>
+
 </head>
 
 <body>
@@ -19,7 +21,7 @@
         <div class="container">
             <header>
                 <img src="assets/logo.png" alt="Logo for the cuda Project">
-                <nav>
+                <nav id="main-menu">
                     <ul>
                         <li class="active"> <a href="#">Home</a></li>
                         <li> <a href="#"> About </a></li>
@@ -28,6 +30,10 @@
                         <li> <a href="#"> Contact </a></li>
                     </ul>
                 </nav>
+
+                <a href="#" id="menu-icon" onclick="toggleMenu();" style="display:none;">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </a>
             </header>
 
             <div id="main-heading-and-cta">
@@ -52,7 +58,7 @@
                 <div class="blurb">
                     <img src="/assets/flag-icon.png" alt="Flag Icon">
                     <h3> BRANDING </h3>
-                    <p> Lorem Ipsum is simply dummy text 
+                    <p> Lorem Ipsum is simply dummy text
                         of the printing.
                     </p>
                 </div>
@@ -129,6 +135,17 @@
 
         </div>
     </footer>
+
+    <script>
+        function toggleMenu() {
+            let x = document.getElementById('main-menu');
+            if (x.style.display === 'block') {
+                x.style.display = 'none';
+            } else {
+                x.style.display = 'block';
+            }
+        }
+    </script>
 </body>
 
 </html>
