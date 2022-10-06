@@ -7,6 +7,15 @@
     <title>JavaScript</title>
 </head>
 <body>
-    <h1> JavaScript Hello </h1>
+    <h1 id="demo1"> JavaScript Hello </h1>
+    <h1 id="demo2"> Change Me LoL </h1>
+    <button onclick="change()"> Click! </button>
 </body>
+
+<script>
+function change() {
+document.getElementById('demo1').innerHTML = "Changed JavaScript.";
+document.getElementById('demo2').innerHTML = "Changed Text.";
+};
+</script>
 </html>
