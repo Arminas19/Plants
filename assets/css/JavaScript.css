@@ -1,0 +1,67 @@
+
+/* Elements */
+body {
+    background-color: rgb(227, 222, 232);
+}
+
+/* Id's*/
+#hr {
+    color: grey;
+}
+
+
+
+/* Classes */
+.footer-link {
+    color: rgb(146, 146, 33);
+}
+
+.mute {
+    opacity: 70%;
+}
+.icons {
+    box-shadow: 2px 2px grey;
+    border-radius: 50%;
+}
+
+.btn-white {
+    background-color: aliceblue;
+    color: black;
+}
+.btn-white:hover {
+    color: goldenrod;
+
+}
+.yellow-bg {
+    background-color: rgb(154, 154, 0);
+}
+
+.bright-yellow {
+    background-color: yellow;
+    color: black;
+}
+
+.bright-green {
+    background-color: #19cb98;
+    color: white;
+}
+.intro {
+    opacity: 70%;
+    font-size: 23px;
+    text-align: center;
+}
+
+.navigation-link:hover {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.footer-link:hover {
+    color: goldenrod;
+    font-weight: 500;
+}
+
+.align-items-center {
+    text-align: center;
+    align-items: center!important;
+}
