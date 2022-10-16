@@ -32,5 +32,21 @@
 // document.getElementById('demo3').innerHTML = 'You stick theys in your bum (struna & Timmy)' + text;
 // document.getElementById('demo3').style.fontSize = '40px';
 // document.getElementById('demo3').style.color = 'limegreen';
-
 // };
+
+
+
+// jQuery
+$(document).ready(function() {
+    $('#blob').click(function() {
+        $(this).css("color", "yellow");
+    });
+    $('p').click(function() {
+        $(this).hide()
+    });
+
+    $("button").click(function() {
+        $("p").toggle();
+        $("#blob").toggle(1000);
+    });
+});
