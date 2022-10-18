@@ -35,7 +35,7 @@
 // };
 
 
-
+let pressed = 0
 // jQuery
 $(document).ready(function() {
     $('#blob').click(function() {
@@ -46,8 +46,9 @@ $(document).ready(function() {
     });
 
     $("button").click(function() {
+        pressed += 1
         $("p").toggle();
         $("#blob").toggle(1000);
-        $("button").after("Pressed!!");
+        $("button").after("Pressed!!" + pressed);
     });
 });
