@@ -48,5 +48,6 @@ $(document).ready(function() {
     $("button").click(function() {
         $("p").toggle();
         $("#blob").toggle(1000);
+        $("button").after("Pressed!!");
     });
 });
