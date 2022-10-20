@@ -35,20 +35,47 @@
 // };
 
 
-let pressed = 0
-// jQuery
-$(document).ready(function() {
-    $('#blob').click(function() {
-        $(this).css("color", "yellow");
-    });
-    $('p').click(function() {
-        $(this).hide()
-    });
+// let pressed = 0
+// // jQuery
+// $(document).ready(function() {
+//     $('#blob').click(function() {
+//         $(this).css("color", "yellow");
+//     });
+//     $('p').click(function() {
+//         $(this).hide()
+//     });
 
-    $("button").click(function() {
-        pressed += 1
-        $("p").toggle();
-        $("#blob").toggle(1000);
-        $("button").after("Pressed!!" + pressed);
+//     $("button").click(function() {
+//         pressed += 1
+//         $("p").toggle();
+//         $("#blob").toggle(1000);
+//         $("button").after("Pressed!!" + pressed);
+//     });
+// });
+$(document).ready(function() {
+
+    $('#get-pokemon-button').on('click', function() {
+        $.get('https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20', function(data, status){
+            console.log(data)
+
+            let string = "";
+
+            string += "<table class='table'>";
+    
+            $.each(data.results, function(index, item){
+                string += "<tr><td><a href='"+item.url+"'>"+item.name+"</td><td><button class='hide-button btn btn-primary'>Hide</button></td></tr>";
+            });
+    
+            string += "</table>";
+    
+            $('#poke-list').html(string); 
+
+            if(status) {
+                $('.hide-button').on('click', function(){
+                    $(this).parent().parent().hide();
+                });
+            };
+
+        });
     });
 });
