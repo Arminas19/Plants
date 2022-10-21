@@ -63,3 +63,9 @@ body {
     text-align: center;
     align-items: center!important;
 }
+
+.pokemon-container {
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+}

@@ -64,6 +64,7 @@ $(document).ready(function() {
     
             $.each(data.results, function(index, item){
                 string += "<tr><td><a href='"+item.url+"'>"+item.name+"</td><td><button class='hide-button btn btn-primary'>Hide</button></td></tr>";
+                
             });
     
             string += "</table>";
