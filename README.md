@@ -19,3 +19,18 @@
 <strong> <h4> To open this webpage you need to open the plant's page and then open the pages tab in the navigation, there you will see the Cuda Project on the list below.</h4> </strong>
 
 !['Cuda project'](assets/Cuda_project.png)
+
+# JavaScript Project
+
+<h2> What is the JavaScript Project? </h2>
+
+<h3> The JavaScript Project is a website that contains a restful api, JavaScipt and jQuery. This webpage dononstrains my skills and knowledge of apis. 
+</h3>
+
+<br>
+
+<strong> <h4> To open this webpage you need to open the plant's page and then open the Browse tab in the navigation, there you will see Pokemon List on the list below. Thats where this project will be </h4> </strong>
+
+<strong> <h5> P.S Download Jsonview for a better experience. </h5> </strong>
+
+!['Pokemon project'](assets/Pokemon_webpage.png)
