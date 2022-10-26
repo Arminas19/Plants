@@ -9,5 +9,10 @@ $(document).ready(function() {
     let blue = $('.color-red').html('<h2 class="color-blue"> Blue </h2>');
 
     $('#customId').text('<p> </p> VS  <span>' + blue);
+    const value = $("input").val("Changed!");
+    console.log(value);
+    const text = $('section').text();
+    console.log(text);
+    $('h3').text('Changed Text').append('<span> Span </span>').prepend('<a href="#"> Link </a>');
 
 });
