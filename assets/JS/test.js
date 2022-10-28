@@ -16,4 +16,9 @@ $(document).ready(function() {
     $('h3').text('Changed Text').append('<span> Span </span>').prepend('<a href="#"> Link </a>');
     $('#target').before("<h1> Hello world this is a title </h1>").after("<p> This is a paragraph. #2</p>");
     // $('*').remove(); Removes Everything
+    // $('#deleteMe').empty().html('<h2>Emptyed!</h2>');
+    const $deleteMe = $('#deleteMe');
+    $deleteMe.empty();
+    $deleteMe.html('stuff here, no child elements.');
+    
 });
