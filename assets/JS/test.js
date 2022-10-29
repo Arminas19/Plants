@@ -1,5 +1,5 @@
 $(document).ready(function() {
-    $("#Title").text("Change ME");
+    const $Title = $("#Title").text("Change ME");
     // $("p").html("<strong> Random Text Here :) </strong>");
     $("p.custom-class").text("Changed Again");
     $("#paraId").text("LoL sO Funny");
@@ -20,5 +20,25 @@ $(document).ready(function() {
     const $deleteMe = $('#deleteMe');
     $deleteMe.empty();
     $deleteMe.html('stuff here, no child elements.');
-    
+
+    // $("button").click(function(){
+    //     console.log("Clicked!");
+    // });
+
+    // $("button").on("click", function() {
+    //     console.log("Clicked Again");
+    // });
+
+    // $(document).on("click", "button", function(){
+    //     console.log("3333333333")
+    // });
+
+    const $parent = $("#putButtonHere");
+    $parent.html("<button> Click Me dynamic button </button>") 
+
+    $(document).on("click", "#doSomethingButton", function() {
+        console.log("works!")
+        $Title.css("color", "red");
+        
+    });
 });
