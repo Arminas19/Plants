@@ -41,4 +41,19 @@ $(document).ready(function() {
         $Title.css("color", "red");
         
     });
+
+    $("#box")
+    .on("mouseenter", function(){
+        console.log("over lol");
+    })
+    .on("mouseleave", function(){
+        console.warn("You left the box area");
+    });
+
+    const $strong =  $("strong").on("mouseenter", function(){
+        $strong.css("color", "lightblue");
+    }).on("mouseleave", function(){
+        $strong.css("color", "black");
+    });
+
 });

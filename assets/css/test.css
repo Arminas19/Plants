@@ -5,3 +5,10 @@
 .color-blue {
     color:blue;
 }
+
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    margin: 50px  auto;
+}
