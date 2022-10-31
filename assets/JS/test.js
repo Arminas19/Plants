@@ -9,8 +9,8 @@ $(document).ready(function() {
     let blue = $('.color-red').html('<h2 class="color-blue"> Blue </h2>');
 
     $('#customId').text('<p> </p> VS  <span>' + blue);
-    const value = $("input").val("Changed!");
-    console.log(value);
+    // const value = $("input").val("Changed!");
+    // console.log(value);
     const text = $('section').text();
     console.log(text);
     $('h3').text('Changed Text').append('<span> Span </span>').prepend('<a href="#"> Link </a>');
@@ -54,6 +54,12 @@ $(document).ready(function() {
         $strong.css("color", "lightblue");
     }).on("mouseleave", function(){
         $strong.css("color", "black");
+    });
+
+    $(".select-me").on("keyup", function(){
+    //    const $input = $(".select-me")
+    //     console.log("yoyoyoy:", $input.val());
+        console.log($(this).val());
     });
 
 });
