@@ -61,5 +61,11 @@ $(document).ready(function() {
     //     console.log("yoyoyoy:", $input.val());
         console.log($(this).val());
     });
+    $("[name='mytextarea']").on("focus", function(){
+        console.log("You focused on the textarea!");
+    });
+    $("#inputHere").on("focus", function() {
+        console.warn("You Entered the input!!");
+    });
 
 });
