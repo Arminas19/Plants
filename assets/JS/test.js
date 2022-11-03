@@ -67,5 +67,13 @@ $(document).ready(function() {
     $("#inputHere").on("focus", function() {
         console.warn("You Entered the input!!");
     });
+    $('#unfocus').on('blur', function() {
+        let websiteUrl = $(this).val();
+        if(websiteUrl.substr(0, 4) !== 'http') {
+            websiteUrl = `http://${websiteUrl}`
+        };
+        $(this).val( websiteUrl );
+        
+    });
 
 });
