@@ -76,4 +76,14 @@ $(document).ready(function() {
         
     });
 
+    // $('form').on('submit', function(event) {
+    //     event.preventDefault();
+    //     console.log('form was not submited!!');
+    // });
+
+    $("#submitButton").on('click', function(event) {
+        event.preventDefault();
+        console.log("Button is useless!!");
+    });
+
 });
