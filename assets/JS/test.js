@@ -86,4 +86,9 @@ $(document).ready(function() {
         console.log("Button is useless!!");
     });
 
+    $(".button4").on('click', function(e) {
+        e.preventDefault();
+        $('.black-box').hide();
+    });
+
 });
