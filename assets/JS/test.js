@@ -88,7 +88,8 @@ $(document).ready(function() {
 
     $(".button4").on('click', function(e) {
         e.preventDefault();
-        $('.black-box').hide();
+        // $('.black-box').hide();
+        $('.black-box').show();
     });
 
 });
