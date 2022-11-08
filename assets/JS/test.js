@@ -90,6 +90,15 @@ $(document).ready(function() {
         e.preventDefault();
         // $('.black-box').hide();
         $('.black-box').show();
+        $('.change-box').show();
+    });
+
+    $(".change-box").on('click', function(e) {
+        e.preventDefault();
+        setTimeout(() => {
+            $(".black-box").addClass('purple-class');
+        }, 1000);
+      
     });
 
 });
