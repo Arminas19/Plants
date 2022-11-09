@@ -91,6 +91,8 @@ $(document).ready(function() {
         // $('.black-box').hide();
         $('.black-box').show();
         $('.change-box').show();
+        $('.change-box-width-button').show();
+
     });
 
     $(".change-box").on('click', function(e) {
@@ -99,6 +101,20 @@ $(document).ready(function() {
             $(".black-box").addClass('purple-class');
         }, 1000);
       
+    });
+
+    $('.change-box-width-button').on('click', function(e) {
+        e.preventDefault();
+        $('.black-box').addClass('change-box-width');
+        $('.black-box').removeClass('change-box-width-to-small');
+        $('.width-to-small').show();
+    });
+
+    $('.width-to-small').on('click', function() {
+        $('.width-to-small').hide();
+        $('.black-box').removeClass('change-box-width');
+        $('.black-box').addClass('change-box-width-to-small');
+
     });
 
 });

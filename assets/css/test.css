@@ -31,10 +31,28 @@
     display: none;
 }
 
+.change-box-width-button {
+    margin-left: 50px;
+    display: none;
+}
+
+.width-to-small {
+    margin-left: 50px;
+    display: none;
+}
+
 .purple-class {
     background-color: purple;
     border: 1px solid palegreen;
     width: 200px;
     height: 200px;
     margin-left: 50px;
+}
+
+.change-box-width {
+    width: 100%;
+}
+
+.change-box-width-to-small {
+    width:200px;
 }
