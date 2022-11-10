@@ -117,4 +117,21 @@ $(document).ready(function() {
 
     });
 
+    const $box2 = $('.box-2');
+    // $('#toggle-button').on('click', () => {
+    //     // $('.box-2').toggleClass("green");
+    //     // $box2.toggleClass("green");
+    // });
+
+    $('#toggle-input').on('keyup', function() {
+        const value = $(this).val();
+        if (value === 'arminas') {
+            // $box2.toggleClass('green');
+            $box2.addClass('green');
+        }
+        else {
+            $box2.removeClass('green');
+        };
+    });
+
 });

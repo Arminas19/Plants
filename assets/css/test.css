@@ -13,6 +13,21 @@
     margin: 50px  auto;
 }
 
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    margin-left: 50px;
+}
+
+#toggle-button {
+    margin-left: 50px;
+}
+
+#toggle-input {
+    margin-left: 50px;
+}
+
 .button4 {
    margin-left: 50px;
    margin-top: 50px;
@@ -55,4 +70,8 @@
 
 .change-box-width-to-small {
     width:200px;
+}
+
+.green {
+    background-color: limegreen;
 }
