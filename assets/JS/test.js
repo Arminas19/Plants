@@ -134,4 +134,13 @@ $(document).ready(function() {
         };
     });
 
+    $('#box')
+    // .css('background-color', 'orange')
+    // .css('border', '1px solid black')
+    // .css('border-radius', '50%')
+    .css({
+        backgroundColor: "red",
+        border: "10px solid blue",
+        borderRadius: "10px"
+    })
 });
