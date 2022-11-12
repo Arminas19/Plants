@@ -56,6 +56,16 @@
     display: none;
 }
 
+.fadeOut-button {
+    margin-left: 50px;
+    display: none;
+}
+
+.Togglefade-button {
+    margin-left: 50px;
+    display: none;
+}
+
 .purple-class {
     background-color: purple;
     border: 1px solid palegreen;

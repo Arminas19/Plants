@@ -108,14 +108,25 @@ $(document).ready(function() {
         $('.black-box').addClass('change-box-width');
         $('.black-box').removeClass('change-box-width-to-small');
         $('.width-to-small').show();
+        $('.Togglefade-button').show();
+        
     });
 
     $('.width-to-small').on('click', function() {
         $('.width-to-small').hide();
+        $('.Togglefade-button').hide();
         $('.black-box').removeClass('change-box-width');
         $('.black-box').addClass('change-box-width-to-small');
 
     });
+
+    $('.fadeOut-button').on('click', function() {
+        $('.black-box').fadeOut(4500);
+    })
+
+    $('.Togglefade-button').on('click', function() {
+        $('.black-box').toggle();
+    })
 
     const $box2 = $('.box-2');
     // $('#toggle-button').on('click', () => {
