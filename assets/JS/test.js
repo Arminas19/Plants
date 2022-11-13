@@ -89,7 +89,13 @@ $(document).ready(function() {
     $(".button4").on('click', function(e) {
         e.preventDefault();
         // $('.black-box').hide();
-        $('.black-box').show();
+        $('.black-box').show(function() {
+            console.warn('black box has appeard!!');
+            $('.black-box').fadedown(1500, () =>{
+                console.log('fade Toggle appeard!!');
+                
+            });
+        });
         $('.change-box').show();
         $('.change-box-width-button').show();
 
