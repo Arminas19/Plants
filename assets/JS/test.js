@@ -91,7 +91,7 @@ $(document).ready(function() {
         // $('.black-box').hide();
         $('.black-box').show(function() {
             console.warn('black box has appeard!!');
-            $('.black-box').fadedown(1500, () =>{
+            $('.black-box').fadeToggle(1500, () =>{
                 console.log('fade Toggle appeard!!');
                 
             });
@@ -160,4 +160,11 @@ $(document).ready(function() {
         border: "10px solid blue",
         borderRadius: "10px"
     })
+
+    $('.animation-button').on('click', function() {
+        $('.animate-box').animate({
+            opacity: 0.6,
+            width: "800px"
+        }, 4000);
+    });
 });

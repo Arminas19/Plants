@@ -41,6 +41,14 @@
     display: none;
 }
 
+
+.animate-box {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    margin-left: 50px;
+}
+
 .change-box {
     margin-left: 50px;
     display: none;
@@ -84,4 +92,10 @@
 
 .green {
     background-color: limegreen;
+}
+
+.animation-button {
+    margin-left: 50px;
+    margin-top: 30px;
+
 }
