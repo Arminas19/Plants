@@ -1,4 +1,15 @@
 $(document).ready(function() {
+
+    $(window).on("resize", function() {
+        console.log( $(window).width(), 'X', $(window).height());
+        if( $(window).width() < 700) {
+            $("body").css('background-color', 'green');
+        }
+        else {
+            $("body").css('background-color', 'white');
+        };
+    })
+
     const $Title = $("#Title").text("Change ME");
     // $("p").html("<strong> Random Text Here :) </strong>");
     $("p.custom-class").text("Changed Again");
