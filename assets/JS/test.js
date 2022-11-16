@@ -178,4 +178,18 @@ $(document).ready(function() {
             width: "800px"
         }, 4000);
     });
+
+    $('.li-div').each(function(index, element) {
+        const original_text = $(element).text()
+        $(element).text(`${index}. New Item ${original_text}`)
+        if(index === 2) {
+            $(element)
+            .css("color", "yellow")
+            .css("background-color", "black")
+        };
+    });
+
+    const $inputPass = $('#password-input');
+    $inputPass.attr("type", "password")
+    console.log( "input type:" + $inputPass.attr("type") )
 });
