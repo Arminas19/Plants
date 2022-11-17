@@ -192,4 +192,18 @@ $(document).ready(function() {
     const $inputPass = $('#password-input');
     $inputPass.attr("type", "password")
     console.log( "input type:" + $inputPass.attr("type") )
+
+    $.get('https://swapi.dev/api/people/1/', function(data) {
+        console.log(data);
+        console.log(data['name']);
+        console.log(data['height']);
+        console.log(data['mass']);
+    });
+
+
+    $.post('https://httpbin.org/post',
+    {"Hello": "World"}, 
+    function(data) {
+        console.log("Post was complete with this data:", data);
+    })
 });
