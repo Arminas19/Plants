@@ -193,17 +193,33 @@ $(document).ready(function() {
     $inputPass.attr("type", "password")
     console.log( "input type:" + $inputPass.attr("type") )
 
-    $.get('https://swapi.dev/api/people/1/', function(data) {
-        console.log(data);
-        console.log(data['name']);
-        console.log(data['height']);
-        console.log(data['mass']);
-    });
+    // $.get('https://swapi.dev/api/people/1/', function(data) {
+    //     console.log(data);
+    //     console.log(data['name']);
+    //     console.log(data['height']);
+    //     console.log(data['mass']);
+    // });
 
 
-    $.post('https://httpbin.org/post',
-    {"Hello": "World"}, 
-    function(data) {
-        console.log("Post was complete with this data:", data);
+    // $.post('https://httpbin.org/post',
+    // {"Hello": "World"}, 
+    // function(data) {
+    //     console.log("Post was complete with this data:", data);
+    // })
+    console.log("New Data Here:")
+    const $starwarsContainerh2 = $('.starwars-containerh2');
+    const $starwarsContainerimg = $('.starwars-containerimg');
+    $starwarsContainerimg.hide()
+    
+    $('.starwars-button').on('click', function() {
+        let randomNumber = Math.floor(Math.random() * 89);
+        console.log(randomNumber)
+        $starwarsContainerimg.show()
+        $.get(`https://akabab.github.io/starwars-api/api/id/${randomNumber}.json`, function(data, status){
+            console.log(data);
+            $starwarsContainerh2.text(data['name']);
+            $starwarsContainerimg.attr("src", data['image']);
+        });
     })
+
 });
