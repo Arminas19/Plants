@@ -34,3 +34,16 @@
 <strong> <h5> P.S Download Jsonview for a better experience. </h5> </strong>
 
 !['Pokemon project'](assets/Pokemon_webpage.png)
+
+# jQuery Page
+
+<h2> What does the jQuery page do? </h2>
+
+<h3> The jQuery page loads randomized Starwars characters onto the user page. This is done by using an API. I created this to showcase what I can do using jQuery, you will see I have tried many things on this page a lot of the code is unused but it's there for you to see. 
+</h3>
+
+<br>
+
+<strong> <h4> TTo open this webpage you need to open the plant's page and then open the Browse tab in the navigation, there you will see the jQuery Page on the list below. That's where you will find this page. </h4> </strong>
+
+!['jQuery Page'](assets/jQuery_Page.png)
