@@ -1,3 +1,7 @@
+body {
+    background-color: #696969;
+}
+
 .color-red {
     color:red;
 }
@@ -101,7 +105,49 @@
 }
 
 .starwars-containerimg {
-    width: auto;
-    height: auto;
-    
+    position: relative;
+    width: 100%;
+    height: 880px;
+    margin-bottom: 50px;
+}
+
+.move {
+    padding-top: 2%;
+    text-align: center;
+    max-width: 50%;
+    margin: auto;
+}
+
+.img-div {
+    max-height: 520px;
+}
+
+.starwars-containerimg {
+    max-width: 510px;
+    height: 480px;
+    border-radius: 75%;
+    border: #17B169 1px solid;
+}
+
+.SW-P {
+    color: white;
+    font-size: 20px;
+}
+
+.starwars-button {
+    width: 120px;
+    height: 50px;
+    color: white;
+    border-radius: 3%;
+    background-color:#32de84;
+    border: none;
+}
+
+.starwars-button:hover {
+    background-color: #17B169;
+}
+
+.starwars-containerh2 {
+    padding-top: 5%;
+    color: white;
 }
