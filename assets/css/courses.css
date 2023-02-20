@@ -1,0 +1,45 @@
+/* Colors */
+
+/* background-color: #daa520;  Gold */
+/* background-color: #1B2430;   Dark  */
+
+body {
+    padding: 0;
+    background-color: #1B2430;
+    color: white;
+}
+
+#Navigation {
+    width: 100%;
+    height: 150px;
+    background-color: #D6D5A8;
+}
+
+.Navigation-section2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #be8800;
+    height: 50px;
+}
+
+.nav-header {
+    text-align: center;
+    padding-top: 20px;
+    font-size: 4rem;
+}
+
+nav a {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    letter-spacing: 0.5;
+}
+
+nav a:hover {
+    color: white;
+}
