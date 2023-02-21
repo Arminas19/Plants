@@ -2,6 +2,7 @@
 
 /* background-color: #daa520;  Gold */
 /* background-color: #1B2430;   Dark  */
+/* background-color: #D6D5A8; Beigh */
 
 body {
     padding: 0;
@@ -12,7 +13,7 @@ body {
 #Navigation {
     width: 100%;
     height: 150px;
-    background-color: #D6D5A8;
+    background-color: #daa520;
 }
 
 .Navigation-section2 {
@@ -22,8 +23,8 @@ body {
     justify-content: space-around;
     margin: auto;
     margin-top: 50px;
-    background-color: #be8800;
-    height: 50px;
+    background-color: white;
+    height: 40px;
 }
 
 .nav-header {
@@ -35,11 +36,30 @@ body {
 nav a {
     position: relative;
     text-decoration: none;
-    color: white;
+    color: #daa520;
     font-size: 2vw;
     letter-spacing: 0.5;
 }
 
 nav a:hover {
-    color: white;
+    color: #daa520;
+    font-size: 2.1vw;
+}
+
+/* Hero Section */
+
+#Hero-section{
+margin-top: 150px;
+}
+
+.hero-header {
+font-size: 3rem;
+}
+
+.hero-more{
+font-size: 1.6rem;
+}
+
+.hero-more2{
+font-size: 1.5rem;
 }
