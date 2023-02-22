@@ -4,6 +4,22 @@
 /* background-color: #1B2430;   Dark  */
 /* background-color: #D6D5A8; Beigh */
 
+
+/* buttons */
+.button1 {
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: #daa520;
+    color: white;
+}
+
+.button1:hover {
+background-color: white;
+color: #daa520;
+}
+
+
 body {
     padding: 0;
     background-color: #1B2430;
@@ -62,4 +78,14 @@ font-size: 1.6rem;
 
 .hero-more2{
 font-size: 1.5rem;
+}
+
+.hero-more-div{
+    max-width: 600px;
+}
+
+/* Courses Section  */
+#Courses{
+margin-top: 200px;
+background-color: #daa520;
 }
