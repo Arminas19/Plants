@@ -1,5 +1,4 @@
 /* Colors */
-
 /* background-color: #daa520;  Gold */
 /* background-color: #1B2430;   Dark  */
 /* background-color: #D6D5A8; Beigh */
@@ -100,14 +99,6 @@ font-size: 1.5rem;
 }
 
 /* Courses Section  */
-#Courses{
-min-height: 60vh;
-display: flex;
-align-items: center;
-justify-content: center;
-background-color: #1B2430;
-}
-
 .slide-container {
     max-width: 1120px;
     width: 100%;

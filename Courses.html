@@ -9,7 +9,7 @@
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="assets/Course_logo.png">
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/courses.css">
     <title> Delta Courses</title>
@@ -46,32 +46,32 @@
             </div>
         </div>
     </div>
-    <div id="Courses">
-        <div class="slide-container">
-            <div class="slide-content">
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="image-content">
-                            <span class="overlay"> </span>
 
-                            <div class="card-image">
-                                <img src="assets/Course_logo.png" alt="" class="card-img">
-                            </div>
+    <div class="slide-container swiper">
+        <div class="slide-content mySwiper">
+            <div class="card-wrapper swiper-wrapper">
+                <div class="card swiper-slide">
+                    <div class="image-content">
+                        <span class="overlay"> </span>
+                        <div class="card-image">
+                            <img src="assets/Course_logo.png" alt="" class="card-img">
                         </div>
+                    </div>
+                    <div class="card-content">
+                        <h2 class="name"> Delta Course</h2>
+                        <p class="description"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
+                            officiis minima fugiat accusamus ullam quisquam! Iste.</p>
 
-                        <div class="card-content">
-                            <h2 class="name"> Delta Course</h2>
-                            <p class="description"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias
-                                officiis minima fugiat accusamus ullam quisquam! Iste.</p>
-
-                            <button class="button2"> View More </button>
-                        </div>
+                        <button class="button2"> View More </button>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-scrollbar"></div>
+        <div class="swiper-pagination"></div>
     </div>
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
         integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
@@ -83,7 +83,7 @@
     <!-- Swiper JS -->
     <script src="assets/JS/swiper-bundle.min.js"> </script>
     <!-- JavaScript -->
-    <script src="assets/JS/courses.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </body>
 
 </html>
