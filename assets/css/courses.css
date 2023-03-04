@@ -277,6 +277,59 @@ text-transform: uppercase;
     border-radius: 5px;
   }
 
+  /* Success story section */
+
+  #Success-story-section {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    height: 700px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.94);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  .card-container {
+    height: auto;
+    width: 300px;
+  }
+
+  .image-container{
+    margin: auto;
+    width: 100%;
+  }
+
+  .card-image {
+    display: block;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius: 50%;
+    width: 220px;
+    height: 220px;
+  }
+
+  .card-content-container{
+    margin-top: 20px;
+    text-align: center;
+    color: #1B2430;
+  }
+
+  .card-title{
+    margin-bottom: 20px;
+
+  }
+
+  .card-paragrah{
+    font-weight: 500;
+  }
+
+  @media screen and (max-width: 992px) {
+    #WWA-section{
+      margin-bottom: 500px;
+    }
+  }
+
   @media screen and (max-width: 768px) {
     .slide-content{
       margin: 0 10px;
@@ -284,5 +337,4 @@ text-transform: uppercase;
     .swiper-navBtn{
       display: none;
     }
-   
   }
