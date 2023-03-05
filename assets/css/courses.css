@@ -282,48 +282,66 @@ text-transform: uppercase;
   #Success-story-section {
     margin-top: 200px;
     margin-bottom: 50px;
-    height: 700px;
+    height: auto;
     width: 100%;
     background-color: rgba(255, 255, 255, 0.94);
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
   }
   
   .card-container {
     height: auto;
-    width: 300px;
+    max-height: 520px;
+    width: 400px;
+    margin: 20px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
   }
 
   .image-container{
-    margin: auto;
     width: 100%;
   }
 
   .card-image {
     display: block;
-    margin-left:auto;
-    margin-right:auto;
+    margin: 0 auto;
     border-radius: 50%;
     width: 220px;
     height: 220px;
+    object-fit: cover;
   }
 
   .card-content-container{
     margin-top: 20px;
     text-align: center;
-    color: #1B2430;
+    color: black;
+    padding: 20px;
   }
 
   .card-title{
     margin-bottom: 20px;
-
+    font-size: 1.5rem;
   }
 
   .card-paragrah{
     font-weight: 500;
+    font-size: 1rem;
   }
 
+
+  /* Footer */
+
+#footer{
+  margin-top: 200px;
+  height: 350px;
+  width: 100%;
+  background-color: #daa520;
+}
+  /* Media Queries */
+  
   @media screen and (max-width: 992px) {
     #WWA-section{
       margin-bottom: 500px;
@@ -336,5 +354,47 @@ text-transform: uppercase;
     }
     .swiper-navBtn{
       display: none;
+    }
+    
+    #Success-story-section {
+      margin-top: 50px;
+      padding: 50px 0;
+    }
+    
+    .card-container {
+      width: 90%;
+    }
+    
+    .card-image {
+      width: 180px;
+      height: 180px;
+    }
+
+    .card-title {
+      font-size: 1.2rem;
+    }
+    
+    .card-paragrah {
+      font-size: 0.9rem;
+    }
+  }
+
+  @media only screen and (max-width: 480px) {
+    .card-container {
+      width: 100%;
+      margin: 10px 0;
+    }
+
+    .card-image {
+      width: 150px;
+      height: 150px;
+    }
+
+    .card-title {
+      font-size: 1rem;
+    }
+
+    .card-paragrah {
+      font-size: 0.8rem;
     }
   }
