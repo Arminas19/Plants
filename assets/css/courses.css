@@ -47,6 +47,19 @@ color: #daa520;
   color: #daa520;
 }
 
+.button4{
+  background-color: #1B2430;
+  color: white;
+  height: 50px;
+  width: 200px;
+  border-radius: 5px;
+}
+
+.button4:hover{
+  background-color: #1B2430;
+  color: #daa520;
+}
+
 body {
     padding: 0;
     background-color: #1B2430;
@@ -336,10 +349,49 @@ text-transform: uppercase;
 
 #footer{
   margin-top: 200px;
-  height: 350px;
+  height: auto;
   width: 100%;
   background-color: #daa520;
 }
+
+.footer-content{
+  padding: 8%;
+}
+
+.footer-header{
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.footer-paragragh{
+  font-size: 1.4rem;
+  margin-bottom: 30px;
+}
+
+.social-links{
+  font-size: 2rem;
+  letter-spacing: 10px;
+  margin-bottom: 25px;
+}
+
+.social-links-a{
+  text-decoration: none;
+  color: #1B2430;
+}
+
+.social-links-a:hover{
+  color: white;
+}
+
+.colored-div{
+  background: linear-gradient( to bottom right,  
+  #1B2430 25%,
+  white 25% 50%,
+  white 50% 75%,
+  #1B2430 75%
+  );
+}
+
   /* Media Queries */
   
   @media screen and (max-width: 992px) {
