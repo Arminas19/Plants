@@ -44,6 +44,17 @@
 
 <br>
 
-<strong> <h4> TTo open this webpage you need to open the plant's page and then open the Browse tab in the navigation, there you will see the jQuery Page on the list below. That's where you will find this page. </h4> </strong>
+<strong> <h4> To open this webpage you need to open the plant's page and then open the Browse tab in the navigation, there you will see the jQuery Page on the list below. That's where you will find this page. </h4> </strong>
 
 !['jQuery Page'](assets/jQuery_Page.png)
+
+
+# Delta Courses
+
+<h2> What is Delta Courses? </h2>
+
+<h3> This webpage showcases the front page of a website that advetises programming courses. </h3>
+
+<strong> <h4> To open this webpage you need to open the plant's page and then open the 'Pages' tab in the navigation, there you will see the link for Courses. </h4> </strong>
+
+!['Delta Courses Page'](assets/DeltaCourses.png)
