@@ -1,0 +1,79 @@
+/* Colors */
+    /* blue  #30d5c8 */
+
+
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#Nav{
+    width: 100%;
+    height: auto;
+    background-color: #d3d3d3;
+}
+
+.header-container{
+    display: flex;
+}
+
+.nav-div-header{
+    padding: 20px 20px;
+}
+
+.nav-header{
+    margin: 0px;
+    font-size: 3rem;
+    font-weight: 1000; 
+}
+
+.nav-header-span{
+    font-size: 2.7rem;
+    font-weight: 1000;
+    margin-left: 50px;
+}
+
+.nav-div-center{
+ width: 100%;
+ margin: auto;
+}
+
+.nav-div-center-para{
+    font-size: 5vh;
+    font-weight: 1000; 
+    text-align: center;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.nav-a{
+    text-decoration: none;
+    color: black;
+    transition: color 0.2s ease-in-out;
+}
+
+.nav-a:hover{
+    color: #21a297;
+}
+
+.nav-a-h3{
+    font-size: 1.3rem;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+    .nav-div-center-para {
+      font-size: 4vh;
+    }
+  }
+
+@media (max-width: 500px) {
+    .nav-div-center-para {
+      display: none;
+    }
+  }
