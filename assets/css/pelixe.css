@@ -59,9 +59,10 @@ body{
 }
 
 .nav-div-center-para{
-    font-size: 5vh;
+    font-size: 2.5rem;
     font-weight: 1000; 
     text-align: center;
+    color: white;
 }
 
 .nav-links{
@@ -125,15 +126,95 @@ body{
     position: static;
 }
 
+
+.advert-container{
+    background-color: rgb(173, 255, 47);
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.advert-header{
+    text-align: center;
+    color: white;
+}
+
+.advert-span{
+    font-weight: 100;
+    color: white;
+    text-decoration: underline 2px solid white;
+}
+
+.advert-para{
+    font-weight: 100;
+    font-size: 0.8rem;
+}
+
+.advert-left-side{
+    background: linear-gradient( to left top,  
+    rgb(173, 255, 47) 25%,
+    black 25% 50%,
+    hotpink 50% 75%,
+    rgb(173, 255, 47) 75%
+    );
+}
+
+.advert-middle-side{
+    padding-top: 20px;
+    padding-bottom: 35px;
+    background: linear-gradient( to bottom left,  
+    rgb(173, 255, 47) 25%,
+    rgb(7, 221, 245) 25% 50%,
+    black 50% 75%,
+    rgb(173, 255, 47) 75%
+    );
+}
+
+.advert-right-side{
+  background: linear-gradient( to left top,  
+  rgb(173, 255, 47) 25%,
+  black 25% 50%,
+  hotpink 50% 75%,
+  rgb(173, 255, 47) 75%
+  );
+
+}
+
+.slideshow {
+    position: relative;
+    height: 1em; /* Set the height to the height of the paragraph */
+  }
+  
+  .slideshow p {
+    position: absolute;
+    top: -40px;
+    left: 70px;
+    opacity: 0;
+  }
+  
+  .slideshow p:first-child {
+    opacity: 1;
+  }
 /* MEDIA QUERIES */
+
+@media (max-width: 869px) {
+    .nav-div-center-para {
+        font-size: 2rem;
+      }
+}
 
 @media (max-width: 768px) {
     .nav-div-center-para {
-      font-size: 4vh;
+      font-size: 1.8rem;
     }
   }
 
-@media (max-width: 500px) {
+  @media (max-width: 633px) {
+    .nav-div-center-para {
+        font-size: 1.5rem;
+      }
+  }
+
+@media (max-width: 564px) {
     .nav-div-center-para {
       display: none;
     }
