@@ -45,12 +45,14 @@ body{
     margin: 0px;
     font-size: 3rem;
     font-weight: 1000; 
+    color: rgb(255, 251, 35);
 }
 
 .nav-header-span{
     font-size: 2.7rem;
     font-weight: 1000;
     margin-left: 50px;
+    color: rgb(255, 251, 35);
 }
 
 .nav-div-center{
@@ -63,6 +65,7 @@ body{
     font-weight: 1000; 
     text-align: center;
     color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .nav-links{
@@ -217,5 +220,17 @@ body{
 @media (max-width: 564px) {
     .nav-div-center-para {
       display: none;
+    }
+
+    .nav-div-center{
+      display: none;
+    }
+
+    .nav-div-header{
+        width: 100%;
+    }
+
+    .nav-header{
+        text-align: center;
     }
   }
