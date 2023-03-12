@@ -203,6 +203,11 @@ body{
     .nav-div-center-para {
         font-size: 2rem;
       }
+
+      .nav-a-h3{
+        font-size: 1rem;
+      }
+
 }
 
 @media (max-width: 768px) {
@@ -234,3 +239,9 @@ body{
         text-align: center;
     }
   }
+
+@media (max-width: 465px) {
+    .nav-a-h3{
+        font-size: 0.5rem;
+      }
+}
