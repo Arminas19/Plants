@@ -250,14 +250,92 @@ body {
     cursor: pointer;
 }
 
-.show-row2{
+.show-row2 {
     margin-top: 50px;
 }
 
-.image-container2{
+.image-container2 {
     max-width: 300px;
     max-height: 300px;
     margin: auto;
+}
+
+.advert-container2 {
+    margin-top: 50px;
+}
+
+.advert-shoes-container {
+    display: inline-flex;
+    justify-content: space-around;
+}
+
+.advert-card {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-image: url(../shoe-images/image1.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.advert-card2 {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-image: url(../shoe-images/image2.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.advert-card3 {
+    position: relative;
+    width: 500px;
+    height: 600px;
+    background-image: url(../shoe-images/image3.webp);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    padding: 0px;
+    margin: 0px;
+}
+
+.adevert-shoe-content{
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    right: 150px;
+    margin: auto;
+}
+
+.adevert-shoe-content2{
+    position: absolute;
+    text-align: center;
+    bottom: 50px;
+    right: 120px;
+    margin: auto;
+}
+
+.advert-category-header{
+    font-size: 2.2rem;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    text-shadow: 2px 2px 0 black, 2px 2px 0 #aaa;
+    margin-bottom: 50px;
+}
+
+.advert-brand-selection{
+    font-size: 1.2rem;
+    color: black;
+    background-color: white;
+    margin-top: 10px;
+    cursor: pointer;
 }
 
 /* MEDIA QUERIES */
@@ -306,7 +384,7 @@ body {
         display: inline;
     }
 
-    .shoe-row{
+    .shoe-row {
         margin-top: 50px;
     }
 
@@ -325,8 +403,8 @@ body {
 
 @media (max-width: 375px) {
 
-.filter-button,
-.button-disabled {
-    width: 91px;
-}
+    .filter-button,
+    .button-disabled {
+        width: 91px;
+    }
 }
