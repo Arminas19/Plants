@@ -267,6 +267,7 @@ body {
 .advert-shoes-container {
     display: inline-flex;
     justify-content: space-around;
+    flex-wrap: wrap
 }
 
 .advert-card {
@@ -305,7 +306,7 @@ body {
     margin: 0px;
 }
 
-.adevert-shoe-content{
+.adevert-shoe-content {
     position: absolute;
     text-align: center;
     bottom: 50px;
@@ -313,7 +314,7 @@ body {
     margin: auto;
 }
 
-.adevert-shoe-content2{
+.adevert-shoe-content2 {
     position: absolute;
     text-align: center;
     bottom: 50px;
@@ -321,7 +322,7 @@ body {
     margin: auto;
 }
 
-.advert-category-header{
+.advert-category-header {
     font-size: 2.2rem;
     text-transform: uppercase;
     color: white;
@@ -330,7 +331,7 @@ body {
     margin-bottom: 50px;
 }
 
-.advert-brand-selection{
+.advert-brand-selection {
     font-size: 1.2rem;
     color: black;
     background-color: white;
@@ -338,7 +339,106 @@ body {
     cursor: pointer;
 }
 
+#footer {
+    margin-top: 50px;
+}
+
+.Social-links-container {
+    padding: 0px;
+    height: auto;
+    display: inline-flex;
+    background-color: #2e2e2e;
+    width: 100%;
+}
+
+.Social-links-header {
+    color: white;
+    padding: 10px;
+    font-size: 1.8rem;
+}
+
+.social-links-a {
+    color: white;
+    font-size: 1.8rem;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.social-links-a:hover {
+    color: aqua;
+}
+
+
+.footer-advert-container {
+    background-color: #f5f5f5;
+    padding: 100px;
+    text-align: center;
+}
+
+.footer-advert-header {
+    font-size: 2.5rem;
+    padding-bottom: 20px;
+}
+
+.footer-advert-para1 {
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+}
+
+.footer-advert-para2 {
+    font-size: 1.3rem;
+}
+
+.footer-advert-para2-span {
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.sign-up-container {
+    display: inline-flex;
+    padding-bottom: 20px;
+}
+
+.sign-up-input {
+    border: none;
+    background-color: white;
+    width: 500px;
+    height: 50px;
+}
+
+.sign-up-input:focus{
+    outline: none;
+}
+
+.arrow-rigth {
+    font-size: 20px;
+    margin: auto;
+    border: none;
+    background-color: white;
+    height: 50px;
+    color: black;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: lighter;
+}
+
+.arrow-rigth:hover {
+    color: black;
+}
+
 /* MEDIA QUERIES */
+
+@media(max-width: 1500px) {
+    .advert-card3 {
+        margin-top: 30px;
+    }
+}
+
+@media(max-width: 1000px) {
+    .advert-card2 {
+        margin-top: 30px;
+    }
+}
 
 @media (max-width: 869px) {
     .nav-div-center-para {
@@ -357,9 +457,21 @@ body {
     }
 }
 
+@media(max-width:693px) {
+    .sign-up-input {
+        width: 350px;
+    }
+}
+
 @media (max-width: 633px) {
     .nav-div-center-para {
         font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 575px) {
+    .sign-up-input {
+        width: 300px;
     }
 }
 
@@ -393,11 +505,45 @@ body {
         margin-left: 0px;
     }
 
+    .sign-up-input {
+        width: 200px;
+    }
+}
+
+@media(max-width:500px) {
+    .advert-card {
+        width: 300px;
+        height: 400px;
+    }
+
+    .advert-card2 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .advert-card3 {
+        width: 300px;
+        height: 400px;
+    }
+
+    .adevert-shoe-content {
+        bottom: 50px;
+        right: 50px;
+    }
+
+    .adevert-shoe-content2 {
+        bottom: 50px;
+        right: 17px;
+    }
 }
 
 @media (max-width: 465px) {
     .nav-a-h3 {
         font-size: 0.5rem;
+    }
+
+    .sign-up-input {
+        width: 150px;
     }
 }
 
@@ -406,5 +552,9 @@ body {
     .filter-button,
     .button-disabled {
         width: 91px;
+    }
+
+    .sign-up-container {
+        display: none;
     }
 }
