@@ -426,6 +426,24 @@ body {
     color: black;
 }
 
+.footer-bottom-row{
+    padding-bottom: 20px;
+}
+
+.footer-para{
+    color: black;
+    font-weight: 700;
+    font-size: 0.8rem;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-span{
+    padding: 0px;
+    color: black;
+    font-weight: 300;
+    font-size: 0.6;
+}
 /* MEDIA QUERIES */
 
 @media(max-width: 1500px) {
