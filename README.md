@@ -58,3 +58,13 @@
 <strong> <h4> To open this webpage you need to open the plant's page and then open the 'Pages' tab in the navigation, there you will see the link for Courses. </h4> </strong>
 
 !['Delta Courses Page'](assets/DeltaCourses.png)
+
+# Pelixe Shoe Store
+
+<h2> What is Pelixe Shoe Store? </h2>
+
+<h3> Pelixe is a shoe store inspired by the JD online Clothing store. It showcases different shoes created by popular brands like Nike, Adidas, and Puma.  </h3>
+
+<strong> <h4> To open this webpage you need to open the plant's page and then open the 'Pages' tab in the navigation, there you will see the link for 'shoes'. </h4> </strong>
+
+!['Pelixe Shoe Store'](assets/Pelixe_website.png)
