@@ -100,11 +100,11 @@ body {
 /* Introduction Section */
 
 
-/* Blogs section */
+/* First Blog section */
 .first-blog-section{
     margin-top: 10px;
     padding: 20px;
-    width: 100%;
+    width: 95%;
     height: 400px;
     margin-bottom: 50px;
 }
@@ -115,6 +115,8 @@ body {
     padding: 20px;
     background-color: rgba(101, 170, 248, 0.527);
 }
+
+
 
 .blog-header-div{
     width: 100%;
@@ -144,8 +146,40 @@ body {
     color: rgb(226, 219, 219);
 }
 
-/* Blogs section */
+/* First Blog section */
 
+/* Second Blog Section */
+.second-blog-section{   
+    width: 99%;
+    height: 460px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.second-blog{
+    width: 600px;
+    height: 420px;
+    padding: 20px;
+    background-color: rgba(101, 170, 248, 0.527);
+}
+
+.second-blog-header-div{
+
+}
+
+.second-blog-header{
+
+}
+
+.second-blog-paragragh-div{
+
+}
+
+.second-blog-para{
+
+}
+/* Second Blog Section */
 
 /* Media Queries */
 
@@ -153,17 +187,11 @@ body {
     .intro-p{
         font-size: 28px;
     }
-    .first-blog{
-        width: 850px;
-    }
 }
 
 @media (max-width: 1300px) {
     .intro-p{
         font-size: 24px;
-    }
-    .first-blog{
-        width: 750px;
     }
 }
 
@@ -172,25 +200,43 @@ body {
         font-size: 20px;
     }
     .first-blog{
-        width: 650px;
+        width: 550px;
+    }
+    .first-blog-section{
+        padding: 0px;
     }
 }
 
 @media (max-width: 615px) {
     .first-blog{
-        width: 550px;
+        width: 515px;
+    }
+    .first-blog-section{
+        padding: 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    .intro-p{
+        font-size: 16px;
     }
 }
 
 @media (max-width: 575px) {
     .first-blog{
-        width: 500px;
+        width: 475px;
+    }
+    .first-blog-section{
+        padding: 0px;
     }
 }
 
 @media (max-width: 525px) {
     .first-blog{
-        width: 450px;
+        width: 420px;
+    }
+    .first-blog-section{
+        padding: 0;
     }
 }
 
@@ -198,11 +244,17 @@ body {
     .first-blog{
         width: 400px;
     }
+    .first-blog-section{
+        padding: 0;
+    }
 }
 
 @media (max-width: 425px) {
     .first-blog{
         width: 360px;
+    }
+    .first-blog-section{
+        padding: 0;
     }
 }
 
@@ -210,11 +262,8 @@ body {
     .first-blog{
         width: 280px;
     }
-}
-
-@media (max-width: 600px) {
-    .intro-p{
-        font-size: 16px;
+    .first-blog-section{
+        padding: 0;
     }
 }
 
