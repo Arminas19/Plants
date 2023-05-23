@@ -87,14 +87,14 @@ body {
     width: 49%;
 }
 
-.intro-p{
+.intro-p {
     width: 80%;
     margin-left: 10%;
     text-align: center;
     font-size: 16px;
 }
 
-.intro-p-header{
+.intro-p-header {
     text-transform: uppercase;
 }
 
@@ -102,7 +102,7 @@ body {
 
 
 /* First Blog section */
-.first-blog-section{   
+.first-blog-section {
     width: 99%;
     height: 460px;
     margin-bottom: 40px;
@@ -110,25 +110,26 @@ body {
     justify-content: start;
 }
 
-.first-blog{
+.first-blog {
     width: 600px;
     height: 420px;
     padding: 20px;
     background-color: rgba(101, 170, 248, 0.527);
     margin-left: 15px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
 }
 
-.first-blog-header-div{
+.first-blog-header-div {
     background-color: rgb(26, 100, 185);
 }
 
-.first-blog-header{
+.first-blog-header {
     text-transform: uppercase;
     color: white;
     text-align: center;
 }
 
-.first-blog-paragragh-div{
+.first-blog-paragragh-div {
     background-color: rgb(26, 100, 185);
     height: 320px;
     display: flex;
@@ -136,7 +137,7 @@ body {
     align-items: center;
 }
 
-.first-blog-para{
+.first-blog-para {
     text-align: center;
     font-size: 18px;
     color: rgb(226, 219, 219);
@@ -145,32 +146,49 @@ body {
 /* First Blog section */
 
 /* Second Blog Section */
-.second-blog-section{   
+.second-blog-section {
     width: 99%;
     height: 460px;
     margin-bottom: 40px;
     display: flex;
     justify-content: flex-end;
+    box-shadow: 0 0px 10px rgba(0, 0, 0, 0.3);
 }
 
-.second-blog{
+.second-blog-start {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+    width: 500px;
+    height: auto;
+    justify-content: flex-start;
+}
+
+.second-blog-start-title{
+    text-transform: uppercase;
+}
+
+.second-blog {
     width: 600px;
     height: 420px;
     padding: 20px;
     background-color: rgba(101, 170, 248, 0.527);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+
 }
 
-.second-blog-header-div{
+.second-blog-header-div {
     background-color: rgb(26, 100, 185);
 }
 
-.second-blog-header{
+.second-blog-header {
     text-transform: uppercase;
     color: white;
     text-align: center;
 }
 
-.second-blog-paragragh-div{
+.second-blog-paragragh-div {
     background-color: rgb(26, 100, 185);
     height: 320px;
     display: flex;
@@ -178,42 +196,62 @@ body {
     align-items: center;
 }
 
-.second-blog-para{
+.second-blog-para {
     text-align: center;
     font-size: 18px;
     color: rgb(226, 219, 219);
 }
+
 /* Second Blog Section */
 
 /* Media Queries */
 
 @media (max-width: 2560px) {
-    .intro-p{
+    .intro-p {
         font-size: 28px;
     }
 }
 
+@media (min-width: 1700px) {
+    .second-blog-start {
+        margin-right: 350px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .second-blog-start {
+        margin-right: 250px;
+    }
+}
+
+@media (max-width: 1354px) {
+    .second-blog-start {
+        display: none;
+    }
+}
+
 @media (max-width: 1300px) {
-    .intro-p{
+    .intro-p {
         font-size: 24px;
     }
 }
 
 @media (max-width: 900px) {
-    .intro-p{
+    .intro-p {
         font-size: 20px;
     }
 }
 
 @media (max-width: 650px) {
-    .first-blog{
+    .first-blog {
         margin-left: 0px;
     }
 }
 
 @media (max-width: 600px) {
-    .intro-p{
+    .intro-p {
         font-size: 16px;
     }
 }
+
 /* Media Queries */
