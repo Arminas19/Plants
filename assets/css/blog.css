@@ -165,7 +165,7 @@ body {
     justify-content: flex-start;
 }
 
-.second-blog-start-title{
+.second-blog-start-title {
     text-transform: uppercase;
 }
 
@@ -204,6 +204,79 @@ body {
 
 /* Second Blog Section */
 
+/* Footer Section */
+
+.footer-section {
+    width: 100%;
+    height: auto;
+}
+
+.footer-exterior {
+    padding: 30px;
+}
+
+.footer-div {
+    width: 100%;
+    height: auto;
+    background-color: lightgrey;
+}
+
+.footer {
+    padding: 30px;
+    display: flex;
+    text-align: center;
+
+}
+
+.footer-section-1 {
+    width: 33%;
+    height: auto;
+    /* background-color: green; */
+}
+
+.footer-section-2 {
+    width: 33%;
+    height: auto;
+    /* background-color: red; */
+}
+
+.footer-section-3 {
+    width: 33%;
+    height: auto;
+    /* background-color: yellow; */
+}
+
+.footer-section-title {
+    font-size: 30px;
+}
+
+.footer-section-para {
+    font-size: 18px;
+}
+
+.footer-section-span {
+    font-size: 20px;
+}
+
+.image-container {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+
+/* Footer Section */
+
 /* Media Queries */
 
 @media (max-width: 2560px) {
@@ -212,17 +285,6 @@ body {
     }
 }
 
-@media (min-width: 1700px) {
-    .second-blog-start {
-        margin-right: 350px;
-    }
-}
-
-@media (min-width: 1600px) {
-    .second-blog-start {
-        margin-right: 250px;
-    }
-}
 
 @media (max-width: 1354px) {
     .second-blog-start {
@@ -230,9 +292,38 @@ body {
     }
 }
 
+@media (max-width: 1343px) {
+   .footer-section-2{
+    visibility: hidden;
+    width: 10%;
+   }
+   .footer-section-3{
+    width: 44%;
+   }
+   .footer-section-1{
+    width: 44%;
+   }
+}
+
 @media (max-width: 1300px) {
     .intro-p {
         font-size: 24px;
+    }
+
+    .footer-exterior {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 1030px) {
+    .footer-section-2{
+        display: none;
+    }
+    .footer-section-1{
+        width: 49%;
+    }
+    .footer-section-3{
+        width: 49%;
     }
 }
 
@@ -240,11 +331,23 @@ body {
     .intro-p {
         font-size: 20px;
     }
+
+    .footer-exterior {
+        padding: 10px;
+    }
 }
 
 @media (max-width: 650px) {
     .first-blog {
         margin-left: 0px;
+    }
+
+    .footer-section-3{
+        display: none;
+    }
+
+    .footer-section-1{
+        width: 99%;
     }
 }
 
