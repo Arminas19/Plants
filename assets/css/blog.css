@@ -118,6 +118,7 @@ body {
     background-color: rgba(101, 170, 248, 0.527);
     margin-left: 15px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    border-radius: 15px;
 }
 
 .first-blog-header-div {
@@ -210,6 +211,7 @@ body {
 .footer-section {
     width: 100%;
     height: auto;
+    color: rgb(255, 255, 255);
 }
 
 .footer-exterior {
@@ -219,7 +221,8 @@ body {
 .footer-div {
     width: 100%;
     height: auto;
-    background-color: lightgrey;
+    background-color: rgb(62, 131, 205);
+    border-radius: 15px;
 }
 
 .footer {
@@ -260,12 +263,14 @@ body {
 }
 
 .image-container {
-    max-width: 100%;
+    margin: 0 auto;
+    max-width: 80%;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 50%;
+    border: 5px solid white;
     overflow: hidden;
 }
 
