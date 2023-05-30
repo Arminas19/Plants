@@ -340,6 +340,12 @@ body {
     .footer-section-span{
         font-size: 30px;
     }
+    .first-blog-para{
+        font-size: 27px;
+    }
+    .second-blog-para{
+        font-size: 27px;
+    }
 }
 
 @media(max-width: 2078px){
@@ -387,6 +393,12 @@ body {
     }
     .footer-section-span{
         font-size: 20px;
+    }
+    .first-blog-para{
+        font-size: 18px;
+    }
+    .second-blog-para{
+        font-size: 18px;
     }
 }
 
