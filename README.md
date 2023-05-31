@@ -68,3 +68,13 @@
 <strong> <h4> To open this webpage you need to open the plant's page and then open the 'Pages' tab in the navigation, there you will see the link for 'shoes'. </h4> </strong>
 
 !['Pelixe Shoe Store'](assets/Pelixe_website.png)
+
+# Blackrock Doc Blog Webpage
+
+<h2> What is  Blackrock Doc Blog Webpage? </h2>
+
+<h3>  Blackrock Doc Blog is a webpage focused on blog cards and different colors/designs that I rarely use. Its function is to be able to showcase a user an upbeat positive blog post.    </h3>
+
+<strong> <h4> To open this webpage you need to open the plant's page and then open the 'More' tab in the navigation, there you will see the link for 'blog'. </h4> </strong>
+
+!['Blackrock Doc Blog Webpage'](assets/Blog_webpage.png)
