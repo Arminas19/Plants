@@ -104,3 +104,14 @@ form p a{
     background: #eaeaea;
     color: #555;
 }
+
+nav{
+    text-align: center;
+}
+
+nav p {
+    font-size: 40px;
+    color: white;
+    margin: 0;
+    padding-top: 30px;
+}
