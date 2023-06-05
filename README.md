@@ -78,3 +78,13 @@
 <strong> <h4> To open this webpage you need to open the plant's page and then open the 'More' tab in the navigation, there you will see the link for 'blog'. </h4> </strong>
 
 !['Blackrock Doc Blog Webpage'](assets/Blog_webpage.png)
+
+# Registration Form
+
+<h2> Why showcase a Registration Form? </h2>
+
+<h3>  Showing what kind of registration form I can create using simple HTML and CSS only, shows off my skills using only CSS and HTML to create certain components.   </h3>
+
+<strong> <h4> To get to this registration form you will need to open the plant's page and then open the 'More' tab in the navigation, there you will see the link for 'Register'. </h4> </strong>
+
+!['Registration Form'](assets/Register.png)
